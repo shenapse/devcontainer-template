@@ -1,0 +1,17 @@
+{
+    "name": "name",
+    "dockerComposeFile": "compose.yaml",
+    "service": "dev",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Codeium.codeium",
+            ],
+            "settings": {
+            }
+        },
+    }
+    // "workspaceFolder": 
+    // "postCreateCommand": 
+    // "postStartCommand": 
+}

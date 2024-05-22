@@ -1,0 +1,13 @@
+services:
+  dev:
+    container_name: container_name
+    # image: 
+    # build:
+    #   context: ./
+    # dockerfile: "Dockerfile"
+    tty: true
+    volumes:
+      # - ${PWD}/:/app
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - TZ=Asia/Tokyo
